@@ -15,8 +15,8 @@ namespace ConsoleApp1
             int a = 10;
             int b = 20;
 
-            basic_2cs obj = new basic_2cs();
-            obj.some_defination();
+            //basic_2cs obj = new basic_2cs();
+            //obj.some_defination();
 
             Console.WriteLine(a + b);
 
@@ -26,8 +26,17 @@ namespace ConsoleApp1
             //string username = Console.ReadLine();
             //Console.WriteLine("Hello " + username); 
 
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("You are " + age + " years old");
+            int age = 0;
+            try
+            {
+               age = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("You are " + age + " years old");
+            }
+            catch
+            {
+                Console.WriteLine("Please enter a valid number!");
+            }
+
 
             string fname = "Tejas";
             string lname = "Kini";
@@ -103,6 +112,20 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Car name is " + car);
             }
+
+            // sort array in C#
+            Array.Sort(cars);
+            foreach (string car in cars)
+            {
+                Console.WriteLine("Sorted car name is " + car);
+
+            }
+
+            // multidimensional array
+            int[,] mutliArr = { { 1, 2, 3 }, { 4, 5, 6 } };
+            Console.WriteLine("Element at (0,0) is " + mutliArr[0,0]);
+            Console.ReadLine();
+
         }
     }
 }
