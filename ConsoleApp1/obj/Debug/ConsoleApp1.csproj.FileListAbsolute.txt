@@ -1,0 +1,8 @@
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\LearningExcersies\Learn_C_SHARP_AND_NET_CORE\LearnC#\ConsoleApp1\obj\Debug\ConsoleApp1.exe.config
