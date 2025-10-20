@@ -15,115 +15,120 @@ namespace ConsoleApp1
             int a = 10;
             int b = 20;
 
-            //basic_2cs obj = new basic_2cs();
-            //obj.some_defination();
+            basic_2cs obj = new basic_2cs();
+            int sum = obj.some_defination(a, b);
+            Console.WriteLine("Sum is " + sum);
 
-            Console.WriteLine(a + b);
+            //method overloading
+            Console.WriteLine(obj.Calc(10.5f, 20.3f));
+            Console.WriteLine(obj.Calc(10, 20, 30));
 
-
-            Console.WriteLine("Enter your age");
-
-            //string username = Console.ReadLine();
-            //Console.WriteLine("Hello " + username); 
-
-            int age = 0;
-            try
-            {
-               age = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("You are " + age + " years old");
-            }
-            catch
-            {
-                Console.WriteLine("Please enter a valid number!");
-            }
+            //Console.WriteLine(a + b);
 
 
-            string fname = "Tejas";
-            string lname = "Kini";
+            //Console.WriteLine("Enter your age");
 
-            Console.WriteLine("Your name is " + fname + " " + lname);
-            Console.WriteLine("name with concat " + string.Concat(fname, " ", lname));
+            ////string username = Console.ReadLine();
+            ////Console.WriteLine("Hello " + username); 
 
-            // iterpolation
-            Console.WriteLine($"Your name is {fname} and {lname} he aahe.");
+            //int age = 0;
+            //try
+            //{
+            //   age = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("You are " + age + " years old");
+            //}
+            //catch
+            //{
+            //    Console.WriteLine("Please enter a valid number!");
+            //}
 
-            // accesing characters in string
-            Console.WriteLine("First character in fname is " + fname[0]);
 
-            // find index of character
-            Console.WriteLine("Index of 'j' in fname is " + fname.IndexOf('j'));
+            //string fname = "Tejas";
+            //string lname = "Kini";
 
-            //substring  location
-            int lastname = lname.IndexOf('K');
-            string get_lname = lname.Substring(lastname);
+            //Console.WriteLine("Your name is " + fname + " " + lname);
+            //Console.WriteLine("name with concat " + string.Concat(fname, " ", lname));
 
-            //get lastname using substring
-            Console.WriteLine("Last name using substring is " + get_lname);
+            //// iterpolation
+            //Console.WriteLine($"Your name is {fname} and {lname} he aahe.");
 
-            if (age >= 18)
-            {
-                Console.WriteLine("You are eligible to vote");
-            }
-            else
-            {
-                Console.WriteLine("You are not eligible to vote");
-            }
+            //// accesing characters in string
+            //Console.WriteLine("First character in fname is " + fname[0]);
 
-            // switch statement
+            //// find index of character
+            //Console.WriteLine("Index of 'j' in fname is " + fname.IndexOf('j'));
 
-            string day = "Monday";
-            switch (day)
-            {
-                case "Monday":
-                    Console.WriteLine("Today is Monday");
-                    break;
-                case "Tuesday":
-                    Console.WriteLine("Today is Tuesday");
-                    break;
-                default:
-                    Console.WriteLine("Some other day");
-                    break;
-            }
+            ////substring  location
+            //int lastname = lname.IndexOf('K');
+            //string get_lname = lname.Substring(lastname);
 
-            // while loop
-            int count = 0;
-            while (count < 5)
-            {
-                count++;
-                Console.WriteLine("Count is " + count);
-            }
+            ////get lastname using substring
+            //Console.WriteLine("Last name using substring is " + get_lname);
 
-            // do while loop
-            do
-            {
-                Console.WriteLine("Count in do while is " + count);
-                count--;
-            }while(count > 0);
+            //if (age >= 18)
+            //{
+            //    Console.WriteLine("You are eligible to vote");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("You are not eligible to vote");
+            //}
 
-            // for loop
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine("For loop i is " + i);
-            }
+            //// switch statement
 
-            // foreach loop
-            string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
-            foreach (string car in cars)
-            {
-                Console.WriteLine("Car name is " + car);
-            }
+            //string day = "Monday";
+            //switch (day)
+            //{
+            //    case "Monday":
+            //        Console.WriteLine("Today is Monday");
+            //        break;
+            //    case "Tuesday":
+            //        Console.WriteLine("Today is Tuesday");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Some other day");
+            //        break;
+            //}
 
-            // sort array in C#
-            Array.Sort(cars);
-            foreach (string car in cars)
-            {
-                Console.WriteLine("Sorted car name is " + car);
+            //// while loop
+            //int count = 0;
+            //while (count < 5)
+            //{
+            //    count++;
+            //    Console.WriteLine("Count is " + count);
+            //}
 
-            }
+            //// do while loop
+            //do
+            //{
+            //    Console.WriteLine("Count in do while is " + count);
+            //    count--;
+            //}while(count > 0);
 
-            // multidimensional array
-            int[,] mutliArr = { { 1, 2, 3 }, { 4, 5, 6 } };
-            Console.WriteLine("Element at (0,0) is " + mutliArr[0,0]);
+            //// for loop
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine("For loop i is " + i);
+            //}
+
+            //// foreach loop
+            //string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            //foreach (string car in cars)
+            //{
+            //    Console.WriteLine("Car name is " + car);
+            //}
+
+            //// sort array in C#
+            //Array.Sort(cars);
+            //foreach (string car in cars)
+            //{
+            //    Console.WriteLine("Sorted car name is " + car);
+
+            //}
+
+            //// multidimensional array
+            //int[,] mutliArr = { { 1, 2, 3 }, { 4, 5, 6 } };
+            //Console.WriteLine("Element at (0,0) is " + mutliArr[0,0]);
             Console.ReadLine();
 
         }
